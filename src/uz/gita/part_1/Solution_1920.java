@@ -3,7 +3,12 @@ package uz.gita.part_1;
 public class Solution_1920 {
 
     public int[] buildArray(int[] nums) {
-        return new int[5];
+        int[] result = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            result[i] = nums[nums[i]];
+        }
+
+        return result;
     }
 }
 
