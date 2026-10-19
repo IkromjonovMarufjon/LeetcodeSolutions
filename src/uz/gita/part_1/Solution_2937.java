@@ -1,7 +1,5 @@
 package uz.gita.part_1;
 
-import javafx.print.Collation;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
